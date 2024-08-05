@@ -1,7 +1,5 @@
 # Words of Wonders Game 🚀
 
-## 🚀 Getting Started
-
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
