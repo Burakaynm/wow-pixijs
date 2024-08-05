@@ -1,0 +1,8 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [["@babel/plugin-proposal-class-properties"]],
+  "ignore": [
+    "**/__tests__", // ignore the whole test directory
+    "**/*.min.js" // ignore test files only
+  ]
+}

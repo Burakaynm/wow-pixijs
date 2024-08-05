@@ -1,0 +1,23 @@
+{
+  "name": "wow",
+  "version": "1.0.0",
+  "description": "Words of Wonders - Pixijs",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "dev": "webpack-dev-server --hot --no-live-reload --mode development --config webpack.config.js",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "webpack": "5.73.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.3"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "gsap": "^3.12.1",
+    "html-webpack-plugin": "^5.5.3",
+    "pixi.js": "^7.3.1",
+    "webpack-bundle-analyzer": "^4.9.0"
+  }
+}
