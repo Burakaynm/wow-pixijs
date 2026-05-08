@@ -4,7 +4,6 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const package = require("./package.json");
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
-
 module.exports = {
   entry: "./src/index.js",
   resolve: {
@@ -20,9 +19,7 @@ module.exports = {
   mode: "development",
   //   devtool: "inline-source-map",
   module: {
-    rules: [
-
-    ],
+    rules: [],
   },
   devServer: {
     static: {
@@ -32,7 +29,6 @@ module.exports = {
     open: true,
     port: 8008,
   },
-
 
   optimization: {
     minimize: true,

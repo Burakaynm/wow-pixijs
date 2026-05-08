@@ -4,10 +4,6 @@
       "name": "game",
       "assets": [
         {
-          "name": "logo",
-          "srcs": "assets/core/logo_white.png"
-        },
-        {
           "name": "lettersBackground",
           "srcs": "assets/bubble-white.png"
         },
